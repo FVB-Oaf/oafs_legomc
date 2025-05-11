@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "minecraft:block/lego_colors/dark_brown",
+    "color2": "minecraft:block/lego_colors/dark_brown"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/ore",
+  "textures": {
+    "all": "minecraft:block/cherry_leaves",
+    "1": "minecraft:block/lego_colors/invisible"
+  }
+}

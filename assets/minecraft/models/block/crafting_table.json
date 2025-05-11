@@ -2,12 +2,12 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
 	"textures": {
-		"0": "block/oafs_lego/round_plate_black",
+		"0": "block/lego_colors/black",
 		"1": "block/crafting_table_front",
 		"3": "block/crafting_table_top",
-		"4": "block/crafting_table_bottom",
+		"4": "block/lego_colors/medium_nougat",
 		"5": "block/oafs_lego/shadow",
-		"particle": "block/oafs_lego/round_plate_black"
+		"particle": "block/lego_colors/medium_nougat"
 	},
 	"elements": [
 		{
@@ -166,10 +166,14 @@
 			}
 		},
 		{
-			"from": [0, 0, 0],
-			"to": [16, 0.01, 16],
+			"from": [15.99, 15.99, 15.99],
+			"to": [0.01, 0.01, 0.01],
 			"faces": {
-				"up": {"uv": [0, 0, 16, 16], "texture": "#5"}
+				"up": {"uv": [0, 0, 15.98, 15.98], "texture": "#5"},
+				"north": {"uv": [0, 0, 15.98, 15.98], "texture": "#5"},
+				"east": {"uv": [0, 0, 15.98, 15.98], "texture": "#5"},
+				"south": {"uv": [0, 0, 15.98, 15.98], "texture": "#5"},
+				"west": {"uv": [0, 0, 15.98, 15.98], "texture": "#5"}
 			}
 		}
 	]

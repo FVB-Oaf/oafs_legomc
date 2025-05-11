@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "minecraft:block/lego_colors/dark_bluish_gray",
+    "side": "minecraft:block/mossy_cobblestone_stairs",
+    "top": "minecraft:block/lego_colors/dark_bluish_gray"
+  }
+}
